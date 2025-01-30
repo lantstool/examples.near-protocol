@@ -1,0 +1,31 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Transfer NFT to v2.keypom.near",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_transfer_call",
+        "args": {
+          "receiver_id": "v2.keypom.near",
+          "token_id": "<token_id>",
+          "msg": "<drop_id>"
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "yoctoNEAR"
+        }
+      }
+    ]
+  }
+}

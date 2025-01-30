@@ -1,0 +1,52 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create Function Call Drop",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "v2.keypom.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "v2.keypom.near",
+        "methodName": "create_drop",
+        "args": {
+          "public_keys": [
+            "<public_key_1>"
+          ],
+          "deposit_per_use": "10000000000000000000000",
+          "fcData": {
+            "methods": [
+              [
+                {
+                  "receiverId": "nft.primitives.near",
+                  "methodName": "nft_mint",
+                  "args": {
+                    "token_id": "1",
+                    "metadata": {
+                      "title": "My NFT drop",
+                      "description": "",
+                      "media": ""
+                    },
+                    "accountIdField": "<receiver_id>",
+                    "attachedDeposit": "10000000000000000000000"
+                  }
+                }
+              ]
+            ]
+          }
+        },
+        "gas": {
+          "amount": "100",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.05",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create FT Drop",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "v2.keypom.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "v2.keypom.near",
+        "methodName": "create_drop",
+        "args": {
+          "public_keys": [
+            "<public_key_1>"
+          ],
+          "deposit_per_use": "10000000000000000000000",
+          "ftData": {
+            "contractId": "ft.primitives.near",
+            "senderId": "<ft_owner_id>",
+            "amount": "1"
+          }
+        },
+        "gas": {
+          "amount": "100",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.05",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
