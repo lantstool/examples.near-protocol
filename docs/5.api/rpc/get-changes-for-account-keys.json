@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Changes for Account Keys",
+    "method": "getChangesForAccountKeys",
+    "params": {
+      "accountIds": [
+        "example-acct.testnet"
+      ],
+      "finality": "final"
+    }
+  }
+}

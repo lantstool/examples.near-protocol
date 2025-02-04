@@ -1,0 +1,14 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Account Key",
+    "method": "getAccountKey",
+    "params": {
+      "accountId": "client.chainlink.testnet",
+      "publicKey": "ed25519:H9k5eiU4xXS3M4z8HzKJSLaZdqGdGwBG49o7orNC4eZW",
+      "finality": "final"
+    }
+  }
+}
