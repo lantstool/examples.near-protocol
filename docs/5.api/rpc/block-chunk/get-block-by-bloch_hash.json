@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get block by bloch_hash",
+    "method": "getBlock",
+    "params": {
+      "blockId": "6RWmTYhXCzjMjoY3Mz1rfFcnBm8E6XeDDbFEPUA4sv1w"
+    }
+  }
+}

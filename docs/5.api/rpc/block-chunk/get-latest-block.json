@@ -3,10 +3,9 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Get Account Keys",
-    "method": "getAccountKeys",
+    "name": "Get latest block",
+    "method": "getBlock",
     "params": {
-      "accountId": "example.testnet",
       "finality": "final"
     }
   }

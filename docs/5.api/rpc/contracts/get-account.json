@@ -3,10 +3,10 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Get Account Keys",
-    "method": "getAccountKeys",
+    "name": "Get Account",
+    "method": "getAccount",
     "params": {
-      "accountId": "example.testnet",
+      "accountId": "account.rpc-examples.testnet",
       "finality": "final"
     }
   }

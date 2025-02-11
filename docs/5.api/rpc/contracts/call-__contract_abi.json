@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Call __contract_abi",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "contract.rpc-examples.testnet",
+      "methodName": "__contract_abi",
+      "args": "",
+      "finality": "final"
+    }
+  }
+}

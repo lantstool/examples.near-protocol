@@ -1,0 +1,16 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Contract State Changes",
+    "method": "getContractStateChanges",
+    "params": {
+      "contractIds": [
+        "contract.rpc-examples.testnet"
+      ],
+      "keyPrefix": "",
+      "blockId": "187310139"
+    }
+  }
+}

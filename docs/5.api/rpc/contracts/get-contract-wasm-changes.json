@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Contract WASM Changes",
+    "method": "getContractWasmChanges",
+    "params": {
+      "contractIds": [
+        "contract.rpc-examples.testnet"
+      ],
+      "blockId": "187309439"
+    }
+  }
+}

@@ -3,10 +3,11 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Get Account Keys",
-    "method": "getAccountKeys",
+    "name": "Get Contract State",
+    "method": "getContractState",
     "params": {
-      "accountId": "example.testnet",
+      "contractId": "contract.rpc-examples.testnet",
+      "keyPrefix": "",
       "finality": "final"
     }
   }

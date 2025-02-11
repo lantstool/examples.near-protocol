@@ -3,10 +3,10 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Get Account Keys",
-    "method": "getAccountKeys",
+    "name": "Get Contract WASM",
+    "method": "getContractWasm",
     "params": {
-      "accountId": "example.testnet",
+      "contractId": "contract.rpc-examples.testnet",
       "finality": "final"
     }
   }

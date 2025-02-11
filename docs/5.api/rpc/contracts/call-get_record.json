@@ -1,0 +1,17 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Call get_record",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "contract.rpc-examples.testnet",
+      "methodName": "get_record",
+      "args": {
+        "record_id": 1
+      },
+      "finality": "final"
+    }
+  }
+}

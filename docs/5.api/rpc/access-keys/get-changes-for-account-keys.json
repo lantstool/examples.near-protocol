@@ -7,9 +7,9 @@
     "method": "getChangesForAccountKeys",
     "params": {
       "accountIds": [
-        "example-acct.testnet"
+        "account.rpc-examples.testnet"
       ],
-      "finality": "final"
+      "blockId": "187309655"
     }
   }
 }

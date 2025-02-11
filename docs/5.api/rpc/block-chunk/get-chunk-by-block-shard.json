@@ -1,0 +1,13 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Chunk by block+shard",
+    "method": "getChunk",
+    "params": {
+      "blockId": "187310138",
+      "shardId": "0"
+    }
+  }
+}

@@ -3,13 +3,13 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Get Changes for Account Keys",
-    "method": "getChangesForAccountKeys",
+    "name": "Get Account Changes",
+    "method": "getAccountChanges",
     "params": {
       "accountIds": [
-        "example-acct.testnet"
+        "contract.rpc-examples.testnet"
       ],
-      "finality": "final"
+      "blockId": "187310139"
     }
   }
 }

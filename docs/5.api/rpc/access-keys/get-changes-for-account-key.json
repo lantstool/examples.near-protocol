@@ -8,11 +8,11 @@
     "params": {
       "accountKeyPairs": [
         {
-          "accountId": "example-acct.testnet",
-          "publicKey": "ed25519:25KEc7t7MQohAJ4EDThd2vkksKkwangnuJFzcoiXj9oM"
+          "accountId": "account.rpc-examples.testnet",
+          "publicKey": "ed25519:EddTahJwZpJjYPPmat7DBm1m2vdrFBzVv7e3T4hzkENd"
         }
       ],
-      "finality": "final"
+      "blockId": "6RWmTYhXCzjMjoY3Mz1rfFcnBm8E6XeDDbFEPUA4sv1w"
     }
   }
 }

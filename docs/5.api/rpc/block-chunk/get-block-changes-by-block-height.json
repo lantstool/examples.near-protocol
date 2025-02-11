@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get block changes by block height",
+    "method": "getBlockChanges",
+    "params": {
+      "blockId": "187310138"
+    }
+  }
+}

@@ -6,7 +6,7 @@
     "name": "Get Account Keys",
     "method": "getAccountKeys",
     "params": {
-      "accountId": "example.testnet",
+      "accountId": "account.rpc-examples.testnet",
       "finality": "final"
     }
   }
