@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Receipt",
+    "method": "getReceipt",
+    "params": {
+      "receiptId": "23r1wWsMAVtZysr9wNV6TCSdZTUyPbhBZ3McJ6zStpaE"
+    }
+  }
+}

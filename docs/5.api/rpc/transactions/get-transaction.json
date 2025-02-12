@@ -1,0 +1,14 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Transaction",
+    "method": "getTransaction",
+    "params": {
+      "transactionHash": "7AfonAhbK4ZbdBU9VPcQdrTZVZBXE25HmZAMEABs9To1",
+      "signerId": "rpc-examples.testnet",
+      "waitUntil": "FINAL"
+    }
+  }
+}
