@@ -7,7 +7,7 @@
     "method": "callContractViewMethod",
     "params": {
       "contractId": "contract.rpc-examples.testnet",
-      "methodName": "__contract_abi",
+      "methodName": "get_greeting",
       "args": "",
       "finality": "final"
     }
