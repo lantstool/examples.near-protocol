@@ -3,11 +3,11 @@
   "networkId": "testnet",
   "call": {
     "version": "1.0",
-    "name": "Call __contract_abi",
+    "name": "Call get_greeting",
     "method": "callContractViewMethod",
     "params": {
       "contractId": "contract.rpc-examples.testnet",
-      "methodName": "__contract_abi",
+      "methodName": "get_greeting",
       "args": "",
       "finality": "final"
     }
