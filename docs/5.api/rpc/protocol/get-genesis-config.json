@@ -1,0 +1,9 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Genesis Config",
+    "method": "getGenesisConfig"
+  }
+}

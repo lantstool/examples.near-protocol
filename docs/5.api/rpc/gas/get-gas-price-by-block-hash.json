@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get gas price by block hash",
+    "method": "getGasPrice",
+    "params": {
+      "blockId": "6RWmTYhXCzjMjoY3Mz1rfFcnBm8E6XeDDbFEPUA4sv1w"
+    }
+  }
+}

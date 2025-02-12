@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get validators by epoch id",
+    "method": "getValidators",
+    "params": {
+      "epochId": "94jeudySZcxGBSVgKXn3xPT3P5iFF6YcnxC43F15QtkQ"
+    }
+  }
+}

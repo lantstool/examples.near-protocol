@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Protocol Config",
+    "method": "getProtocolConfig",
+    "params": {
+      "finality": "final"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get gas price by block height",
+    "method": "getGasPrice",
+    "params": {
+      "blockId": "187310138"
+    }
+  }
+}
