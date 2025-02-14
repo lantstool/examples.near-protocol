@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Register User",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "token.v2.ref-finance.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "token.v2.ref-finance.near",
+        "methodName": "storage_deposit",
+        "args": {
+          "account_id": "alice.near"
+        },
+        "gas": {
+          "amount": "10",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.00125",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

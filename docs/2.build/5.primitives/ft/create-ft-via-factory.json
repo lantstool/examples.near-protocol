@@ -1,0 +1,40 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create FT via factory",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "tkn.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "tkn.primitives.near",
+        "methodName": "create_token",
+        "args": {
+          "args": {
+            "owner_id": "<account_id>",
+            "total_supply": "1000000000",
+            "metadata": {
+              "spec": "ft-1.0.0",
+              "name": "Test Token",
+              "symbol": "TTTEST",
+              "icon": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+              "decimals": 18
+            }
+          },
+          "account_id": "<account_id>"
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "2.23483",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

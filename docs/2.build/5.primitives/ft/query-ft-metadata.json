@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Query FT Metadata",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "token.v2.ref-finance.near",
+      "methodName": "ft_metadata",
+      "args": "",
+      "finality": "final"
+    }
+  }
+}

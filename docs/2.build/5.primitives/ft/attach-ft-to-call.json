@@ -1,0 +1,31 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Attach FT to Call",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "token.v2.ref-finance.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "token.v2.ref-finance.near",
+        "methodName": "ft_transfer_call",
+        "args": {
+          "receiver_id": "alice.near",
+          "amount": "100000000000000000",
+          "msg": ""
+        },
+        "gas": {
+          "amount": "20",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "yoctoNEAR"
+        }
+      }
+    ]
+  }
+}
