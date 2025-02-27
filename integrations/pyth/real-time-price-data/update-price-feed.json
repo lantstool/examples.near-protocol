@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "testnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Pyth - Update Price Feed",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "pyth-oracle.testnet",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "pyth-oracle.testnet",
+        "methodName": "update_price_feeds",
+        "args": {
+          "data": "504e41550100..."
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.01",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
