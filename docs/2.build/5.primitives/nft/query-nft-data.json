@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Query NFT Data",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_token",
+        "args": {
+          "token_id": "1"
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
