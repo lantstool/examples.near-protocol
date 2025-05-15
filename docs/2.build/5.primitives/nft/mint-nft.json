@@ -1,0 +1,35 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Mint NFT",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_mint",
+        "args": {
+          "token_id": "1",
+          "receiver_id": "bob.near",
+          "token_metadata": {
+            "title": "NFT Primitive Token",
+            "description": "Awesome NFT Primitive Token",
+            "media": "string"
+          }
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.01",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
