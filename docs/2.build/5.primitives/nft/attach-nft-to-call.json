@@ -1,0 +1,31 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Attach NFT to Call",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_transfer_call",
+        "args": {
+          "receiver_id": "alice.near",
+          "token_id": "1",
+          "msg": ""
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "yoctoNEAR"
+        }
+      }
+    ]
+  }
+}
