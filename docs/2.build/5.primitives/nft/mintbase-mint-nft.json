@@ -1,0 +1,31 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Mintbase mint NFT",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "thomasettorreiv.mintbase1.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "thomasettorreiv.mintbase1.near",
+        "methodName": "nft_batch_mint",
+        "args": {
+          "num_to_mint": 1,
+          "owner_id": "bob.near",
+          "metadata": {}
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.01",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

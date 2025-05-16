@@ -14,13 +14,13 @@
       },
       {
         "type": "AddKey",
-        "publicKey": "",
+        "publicKey": "ed25519:3uLTQ58Dki9aUiU183FmZbZ9nADhCbN7HVHeWHSNpLQf",
         "permission": "FullAccess"
       },
       {
         "type": "Transfer",
         "quantity": {
-          "amount": "2.2",
+          "amount": "3.1",
           "unit": "NEAR"
         }
       },
@@ -34,10 +34,15 @@
         "contractId": "",
         "methodName": "new",
         "args": {
-          "owner_id": "<account_id>"
+          "owner_id": "<account_id>",
+          "metadata": {
+            "spec": "nft-1.0.0",
+            "name": "My NFT Collection",
+            "symbol": "MNFT"
+          }
         },
         "gas": {
-          "amount": "50",
+          "amount": "300",
           "unit": "TGas"
         },
         "deposit": {

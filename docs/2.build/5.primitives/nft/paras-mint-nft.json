@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Paras mint NFT",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "x.paras.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "x.paras.near",
+        "methodName": "nft_mint",
+        "args": {
+          "token_series_id": "490641",
+          "receiver_id": "bob.near"
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.01",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
