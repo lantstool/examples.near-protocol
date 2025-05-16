@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Marketplace storage deposit",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "marketplace.paras.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "marketplace.paras.near",
+        "methodName": "storage_deposit",
+        "args": {
+          "receiver_id": "bob.near"
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.00000939",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
