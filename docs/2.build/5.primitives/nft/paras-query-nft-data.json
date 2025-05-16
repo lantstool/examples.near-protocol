@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Reference mint NFT",
+    "name": "Paras query NFT Data",
     "signerId": "",
     "signerKey": "",
     "receiverId": "nft.primitives.near",
@@ -11,22 +11,16 @@
       {
         "type": "FunctionCall",
         "contractId": "nft.primitives.near",
-        "methodName": "nft_mint",
+        "methodName": "nft_token",
         "args": {
-          "token_id": "1",
-          "receiver_id": "bob.near",
-          "token_metadata": {
-            "title": "NFT Primitive Token",
-            "description": "Awesome NFT Primitive Token",
-            "media": "string"
-          }
+          "token_id": "1"
         },
         "gas": {
-          "amount": "300",
+          "amount": "50",
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "0.01",
+          "amount": "0",
           "unit": "NEAR"
         }
       }

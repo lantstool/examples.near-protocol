@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Mintbase query NFT Data",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "anthropocene.mintbase1.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "anthropocene.mintbase1.near",
+        "methodName": "nft_token",
+        "args": {
+          "token_id": "17960"
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Query NFT Data",
+    "name": "Reference query NFT Data",
     "signerId": "",
     "signerKey": "",
     "receiverId": "nft.primitives.near",
