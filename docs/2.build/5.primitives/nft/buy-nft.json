@@ -3,27 +3,26 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Attach NFT to Call",
+    "name": "Buy NFT",
     "signerId": "",
     "signerKey": "",
-    "receiverId": "nft.primitives.near",
+    "receiverId": "x.paras.near",
     "actions": [
       {
         "type": "FunctionCall",
-        "contractId": "nft.primitives.near",
-        "methodName": "nft_transfer_call",
+        "contractId": "x.paras.near",
+        "methodName": "nft_buy",
         "args": {
-          "receiver_id": "<receiver-contract>",
-          "token_id": "<token_id>",
-          "msg": "<a-string-message>"
+          "token_series_id": "299102",
+          "receiver_id": "bob.near"
         },
         "gas": {
           "amount": "50",
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "1",
-          "unit": "yoctoNEAR"
+          "amount": "0.20574",
+          "unit": "NEAR"
         }
       }
     ]
