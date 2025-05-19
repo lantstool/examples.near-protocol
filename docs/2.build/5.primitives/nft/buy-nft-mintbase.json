@@ -3,25 +3,25 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Buy NFT",
+    "name": "Buy NFT Mintbase",
     "signerId": "",
     "signerKey": "",
-    "receiverId": "x.paras.near",
+    "receiverId": "simple.market.mintbase1.near",
     "actions": [
       {
         "type": "FunctionCall",
-        "contractId": "x.paras.near",
-        "methodName": "nft_buy",
+        "contractId": "simple.market.mintbase1.near",
+        "methodName": "buy",
         "args": {
-          "token_series_id": "299102",
-          "receiver_id": "bob.near"
+          "nft_contract_id": "rubennnnnnnn.mintbase1.near",
+          "token_id": "38"
         },
         "gas": {
           "amount": "50",
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "0.20574",
+          "amount": "0.001",
           "unit": "NEAR"
         }
       }

@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Buy NFT Paras",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "x.paras.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "x.paras.near",
+        "methodName": "nft_buy",
+        "args": {
+          "token_series_id": "299102",
+          "receiver_id": "bob.near"
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.20574",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
