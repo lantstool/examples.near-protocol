@@ -3,25 +3,26 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Query NFT Data Mintbase",
+    "name": "Transfer NFT Paras",
     "signerId": "",
     "signerKey": "",
-    "receiverId": "anthropocene.mintbase1.near",
+    "receiverId": "x.paras.near",
     "actions": [
       {
         "type": "FunctionCall",
-        "contractId": "anthropocene.mintbase1.near",
-        "methodName": "nft_token",
+        "contractId": "x.paras.near",
+        "methodName": "nft_transfer",
         "args": {
-          "token_id": "17960"
+          "token_id": "490641",
+          "receiver_id": "bob.near"
         },
         "gas": {
-          "amount": "50",
+          "amount": "25",
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "0",
-          "unit": "NEAR"
+          "amount": "1",
+          "unit": "yoctoNEAR"
         }
       }
     ]

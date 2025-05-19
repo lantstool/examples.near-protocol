@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Paras query NFT Data",
+    "name": "Query NFT Data Paras",
     "signerId": "",
     "signerKey": "",
     "receiverId": "x.paras.near",

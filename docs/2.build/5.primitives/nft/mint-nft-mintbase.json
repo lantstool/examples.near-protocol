@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Mintbase mint NFT",
+    "name": "Mint NFT Mintbase",
     "signerId": "",
     "signerKey": "",
     "receiverId": "thomasettorreiv.mintbase1.near",

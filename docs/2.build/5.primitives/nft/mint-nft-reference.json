@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Reference mint NFT",
+    "name": "Mint NFT Reference",
     "signerId": "",
     "signerKey": "",
     "receiverId": "nft.primitives.near",

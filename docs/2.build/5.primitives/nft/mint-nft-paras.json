@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Paras mint NFT",
+    "name": "Mint NFT Paras",
     "signerId": "",
     "signerKey": "",
     "receiverId": "x.paras.near",
