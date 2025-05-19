@@ -1,0 +1,37 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create DAO",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "sputnik-dao.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "sputnik-dao.near",
+        "methodName": "create",
+        "args": {
+          "name": "primitives",
+          "args": {
+            "config": {
+              "name": "Primitives",
+              "purpose": "Building primitives on NEAR",
+              "metadata": ""
+            },
+            "policy": ["bob.near"]
+          }
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "6",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
