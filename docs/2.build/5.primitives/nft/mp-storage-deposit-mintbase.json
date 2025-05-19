@@ -3,17 +3,17 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Marketplace storage deposit",
+    "name": "Marketplace storage deposit Mintbase",
     "signerId": "",
     "signerKey": "",
-    "receiverId": "marketplace.paras.near",
+    "receiverId": "simple.market.mintbase1.near",
     "actions": [
       {
         "type": "FunctionCall",
-        "contractId": "marketplace.paras.near",
-        "methodName": "storage_deposit",
+        "contractId": "simple.market.mintbase1.near",
+        "methodName": "deposit_storage",
         "args": {
-          "receiver_id": "bob.near"
+          "autotransfer": true
         },
         "gas": {
           "amount": "300",

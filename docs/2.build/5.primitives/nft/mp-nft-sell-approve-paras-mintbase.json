@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Marketplace NFT sell approve",
+    "name": "Marketplace NFT sell approve Mintbase",
     "signerId": "",
     "signerKey": "",
     "receiverId": "nft.primitives.near",
@@ -13,12 +13,10 @@
         "contractId": "nft.primitives.near",
         "methodName": "nft_approve",
         "args": {
-          "token_id": "1e95238d266e5497d735eb30",
-          "account_id": "marketplace.paras.near",
+          "token_id": "3c46b76cbd48e65f2fc88473",
+          "account_id": "simple.market.mintbase1.near",
           "msg": {
-            "price": "200000000000000000000000",
-            "market_type": "sale",
-            "ft_token_id": "near"
+            "price": "200000000000000000000000"
           }
         },
         "gas": {
