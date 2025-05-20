@@ -14,21 +14,14 @@
         "methodName": "create",
         "args": {
           "name": "primitives",
-          "args": {
-            "config": {
-              "name": "Primitives",
-              "purpose": "Building primitives on NEAR",
-              "metadata": ""
-            },
-            "policy": ["bob.near"]
-          }
+          "args": "eyJjb25maWciOnsibmFtZSI6IlByaW1pdGl2ZXMiLCJwdXJwb3NlIjoiQnVpbGRpbmcgcHJpbWl0aXZlcyBvbiBORUFSIiwibWV0YWRhdGEiOiIifSwicG9saWN5IjpbImJvYi5uZWFyIl19"
         },
         "gas": {
           "amount": "300",
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "6",
+          "amount": "7",
           "unit": "NEAR"
         }
       }
