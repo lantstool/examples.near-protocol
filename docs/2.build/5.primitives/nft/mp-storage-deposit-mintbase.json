@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Marketplace storage deposit Mintbase",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "simple.market.mintbase1.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "simple.market.mintbase1.near",
+        "methodName": "deposit_storage",
+        "args": {
+          "autotransfer": true
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.00000939",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

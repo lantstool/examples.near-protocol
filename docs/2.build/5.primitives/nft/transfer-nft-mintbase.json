@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Transfer NFT Mintbase",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "thomasettorreiv.mintbase1.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "thomasettorreiv.mintbase1.near",
+        "methodName": "nft_transfer",
+        "args": {
+          "token_id": "490641",
+          "receiver_id": "bob.near"
+        },
+        "gas": {
+          "amount": "25",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "yoctoNEAR"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Marketplace NFT sell approve Mintbase",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_approve",
+        "args": {
+          "token_id": "3c46b76cbd48e65f2fc88473",
+          "account_id": "simple.market.mintbase1.near",
+          "msg": {
+            "price": "200000000000000000000000"
+          }
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

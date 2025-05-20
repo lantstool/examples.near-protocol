@@ -1,0 +1,35 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Marketplace NFT sell approve Paras",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_approve",
+        "args": {
+          "token_id": "1e95238d266e5497d735eb30",
+          "account_id": "marketplace.paras.near",
+          "msg": {
+            "price": "200000000000000000000000",
+            "market_type": "sale",
+            "ft_token_id": "near"
+          }
+        },
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

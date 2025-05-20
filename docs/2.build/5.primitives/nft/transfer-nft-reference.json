@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Transfer NFT Reference",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "nft.primitives.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "nft.primitives.near",
+        "methodName": "nft_transfer",
+        "args": {
+          "token_id": "1",
+          "receiver_id": "bob.near"
+        },
+        "gas": {
+          "amount": "25",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "yoctoNEAR"
+        }
+      }
+    ]
+  }
+}
