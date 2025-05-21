@@ -29,7 +29,7 @@
           "unit": "TGas"
         },
         "deposit": {
-          "amount": "0.1",
+          "amount": "1",
           "unit": "NEAR"
         }
       }
