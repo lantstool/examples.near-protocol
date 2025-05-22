@@ -1,30 +1,18 @@
 {
   "blockchain": "near-protocol",
   "networkId": "mainnet",
-  "transaction": {
+  "call": {
     "version": "1.0",
     "name": "Query Existing Proposals",
-    "signerId": "",
-    "signerKey": "",
-    "receiverId": "nearweek-news-contribution.sputnik-dao.near",
-    "actions": [
-      {
-        "type": "FunctionCall",
-        "contractId": "nearweek-news-contribution.sputnik-dao.near",
-        "methodName": "get_proposals",
-        "args": {
-          "from_index": 9262,
-          "limit": 2
-        },
-        "gas": {
-          "amount": "30",
-          "unit": "TGas"
-        },
-        "deposit": {
-          "amount": "0",
-          "unit": "NEAR"
-        }
-      }
-    ]
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "nearweek-news-contribution.sputnik-dao.near",
+      "methodName": "get_proposals",
+      "args": {
+        "from_index": 9262,
+        "limit": 2
+      },
+      "finality": "final"
+    }
   }
 }
