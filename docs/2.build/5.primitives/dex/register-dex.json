@@ -1,0 +1,27 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Register in the DEX",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "v2.ref-finance.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "v2.ref-finance.near",
+        "methodName": "get_whitelisted_tokens",
+        "args": {},
+        "gas": {
+          "amount": "50",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0.1",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
