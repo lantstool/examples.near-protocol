@@ -1,0 +1,17 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Get Deposit Balances",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "v2.ref-finance.near",
+      "methodName": "get_deposits",
+      "args": {
+        "account_id": "bob.near"
+      },
+      "finality": "final"
+    }
+  }
+}
