@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Vote for proposal",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "primitives.sputnik-dao.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "primitives.sputnik-dao.near",
+        "methodName": "act_proposal",
+        "args": {
+          "id": 0,
+          "action": "VoteApprove"
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

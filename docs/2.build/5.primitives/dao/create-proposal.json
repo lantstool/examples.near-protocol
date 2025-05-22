@@ -1,0 +1,38 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create Proposal",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "primitives.sputnik-dao.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "primitives.sputnik-dao.near",
+        "methodName": "add_proposal",
+        "args": {
+          "proposal": {
+            "description": "My first proposal",
+            "kind": {
+              "Transfer": {
+                "token_id": "",
+                "receiver_id": "bob.near",
+                "amount": "10000000000000000000000000"
+              }
+            }
+          }
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "1",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

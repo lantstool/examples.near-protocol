@@ -1,0 +1,30 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Create DAO",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "sputnik-dao.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "sputnik-dao.near",
+        "methodName": "create",
+        "args": {
+          "name": "primitives",
+          "args": "eyJjb25maWciOnsibmFtZSI6IlByaW1pdGl2ZXMiLCJwdXJwb3NlIjoiQnVpbGRpbmcgcHJpbWl0aXZlcyBvbiBORUFSIiwibWV0YWRhdGEiOiIifSwicG9saWN5IjpbImJvYi5uZWFyIl19"
+        },
+        "gas": {
+          "amount": "300",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "6",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

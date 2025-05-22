@@ -1,0 +1,27 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "List of DAO",
+    "signerId": "",
+    "signerKey": "",
+    "receiverId": "sputnik-dao.near",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "sputnik-dao.near",
+        "methodName": "get_dao_list",
+        "args": {},
+        "gas": {
+          "amount": "100",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}
