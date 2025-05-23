@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "call": {
     "version": "1.0",
-    "name": "Query Assets",
+    "name": "Get Assets Price",
     "method": "callContractViewMethod",
     "params": {
       "contractId": "priceoracle.near",
