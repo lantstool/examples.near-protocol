@@ -3,11 +3,25 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Stake deposit tokens",
+    "name": "Deposit and stake tokens",
     "signerId": "",
     "signerKey": "",
     "receiverId": "",
     "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "",
+        "methodName": "deposit",
+        "args": {},
+        "gas": {
+          "amount": "30",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "100",
+          "unit": "NEAR"
+        }
+      },
       {
         "type": "FunctionCall",
         "contractId": "",
@@ -16,7 +30,7 @@
           "amount": "100000000000000000000000000"
         },
         "gas": {
-          "amount": "40",
+          "amount": "30",
           "unit": "TGas"
         },
         "deposit": {

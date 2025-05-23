@@ -3,11 +3,11 @@
   "networkId": "mainnet",
   "call": {
     "version": "1.0",
-    "name": "Account total stake balance",
+    "name": "Account total balance",
     "method": "callContractViewMethod",
     "params": {
       "contractId": "",
-      "methodName": "get_total_staked_balance",
+      "methodName": "get_account_total_balance",
       "args": {
         "account_id": "<user-account.near>"
       },

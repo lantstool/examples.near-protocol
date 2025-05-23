@@ -3,9 +3,9 @@
   "networkId": "mainnet",
   "transaction": {
     "version": "1.0",
-    "name": "Stake deposit tokens",
+    "name": "Unstake",
     "signerId": "",
-    "signerKey": "ed25519:5piZX9Wob8DbRhYDTtgtH1J3yPBqWFoJhFFKYePKYkoC",
+    "signerKey": "",
     "receiverId": "",
     "actions": [
       {

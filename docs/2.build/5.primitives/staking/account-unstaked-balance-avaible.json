@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "call": {
     "version": "1.0",
-    "name": "Account unstaked balance available ",
+    "name": "Account unstaked balance available",
     "method": "callContractViewMethod",
     "params": {
       "contractId": "",

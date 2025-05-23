@@ -3,7 +3,7 @@
   "networkId": "mainnet",
   "call": {
     "version": "1.0",
-    "name": "Owner staking",
+    "name": "Staking owner",
     "method": "callContractViewMethod",
     "params": {
       "contractId": "",
