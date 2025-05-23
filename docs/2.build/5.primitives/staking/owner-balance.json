@@ -1,0 +1,17 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Owner's balance",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "get_account_total_balance",
+      "args": {
+        "account_id": "owner"
+      },
+      "finality": "final"
+    }
+  }
+}

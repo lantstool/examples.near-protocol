@@ -1,0 +1,29 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "transaction": {
+    "version": "1.0",
+    "name": "Stake deposit tokens",
+    "signerId": "",
+    "signerKey": "ed25519:5piZX9Wob8DbRhYDTtgtH1J3yPBqWFoJhFFKYePKYkoC",
+    "receiverId": "",
+    "actions": [
+      {
+        "type": "FunctionCall",
+        "contractId": "",
+        "methodName": "unstake",
+        "args": {
+          "amount": "100000000000000000000000000"
+        },
+        "gas": {
+          "amount": "30",
+          "unit": "TGas"
+        },
+        "deposit": {
+          "amount": "0",
+          "unit": "NEAR"
+        }
+      }
+    ]
+  }
+}

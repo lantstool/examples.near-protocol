@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Staking key",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "get_staking_key",
+      "args": {},
+      "finality": "final"
+    }
+  }
+}

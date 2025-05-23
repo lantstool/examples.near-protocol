@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Reward fee",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "get_reward_fee_fraction",
+      "args": {},
+      "finality": "final"
+    }
+  }
+}

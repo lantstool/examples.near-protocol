@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Total stake balance pool",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "get_total_staked_balance",
+      "args": {},
+      "finality": "final"
+    }
+  }
+}

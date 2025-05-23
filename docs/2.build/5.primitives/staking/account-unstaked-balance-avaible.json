@@ -1,0 +1,17 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Account unstaked balance available ",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "is_account_unstaked_balance_available",
+      "args": {
+        "account_id": "<user-account.near>"
+      },
+      "finality": "final"
+    }
+  }
+}

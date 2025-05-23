@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Owner staking",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "",
+      "methodName": "get_owner_id",
+      "args": {},
+      "finality": "final"
+    }
+  }
+}
