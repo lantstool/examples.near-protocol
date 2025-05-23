@@ -1,0 +1,15 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Query Assets",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "priceoracle.near",
+      "methodName": "get_assets",
+      "args": {},
+      "finality": "final"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Validators list",
+    "method": "getValidators",
+    "params": {
+      "epochId": null
+    }
+  }
+}
