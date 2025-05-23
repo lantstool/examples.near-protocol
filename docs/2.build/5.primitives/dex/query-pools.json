@@ -1,0 +1,18 @@
+{
+  "blockchain": "near-protocol",
+  "networkId": "mainnet",
+  "call": {
+    "version": "1.0",
+    "name": "Query Pools",
+    "method": "callContractViewMethod",
+    "params": {
+      "contractId": "v2.ref-finance.near",
+      "methodName": "get_pools",
+      "args": {
+        "from_index": 0,
+        "limit": 1000
+      },
+      "finality": "final"
+    }
+  }
+}
